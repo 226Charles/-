@@ -1,0 +1,12 @@
+server:
+  port: ${lyx.goods.port}
+
+#dubbo
+dubbo:
+  application:
+    name: lyx-goods
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 20882

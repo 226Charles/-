@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+
+lyx:
+  goods:
+    port: 6003
+  customer:
+    port: 6002
+  sys:
+    port: 6001
+  order:
+    port: 6004
+  web:
+    port: 9001
