@@ -21,7 +21,7 @@
         <dependency>
             <groupId>com.lyx.common</groupId>
             <artifactId>lyx-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${lyx-common.version}</version>
         </dependency>
         <dependency>
             <groupId>com.lyx.goods.api</groupId>

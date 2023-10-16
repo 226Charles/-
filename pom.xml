@@ -29,6 +29,30 @@
         <java.version>1.8</java.version>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!-- 版本控制 -->
+        <!-- 项目模块版本 -->
+        <lyx-common.version>1.0</lyx-common.version>
+        <lyx-sys.version>1.0</lyx-sys.version>
+        <lyx-customer.version>1.0</lyx-customer.version>
+        <lyx-goods.version>1.0</lyx-goods.version>
+        <lyx-order.version>1.0</lyx-order.version>
+        <lyx-tcc.version>1.0</lyx-tcc.version>
+        <lyx-web.version>1.0</lyx-web.version>
+        <!-- 依赖Jar版本 -->
+        <alibaba-dubbo.version>0.2.0</alibaba-dubbo.version>
+        <mybatis-generator.version>1.3.5</mybatis-generator.version>
+        <mybatis.version>1.3.0</mybatis.version>
+        <!-- spring-boot -->
+        <spring-boot.version>2.1.3.RELEASE</spring-boot.version>
+        <!-- Mysql connector -->
+        <mysql-connector.version>8.0.15</mysql-connector.version>
+        <alibaba-druid.version>1.0.11</alibaba-druid.version>
+        <alibaba-fastjson.version>1.2.6</alibaba-fastjson.version>
+        <data-redis.version>2.1.2.RELEASE</data-redis.version>
+        <commons-pool2.version>2.5.0</commons-pool2.version>
+        <jackson-databind.version>2.9.6</jackson-databind.version>
     </properties>
 
     <dependencies>

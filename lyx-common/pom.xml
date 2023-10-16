@@ -11,6 +11,9 @@
 
     <groupId>com.lyx.common</groupId>
     <artifactId>lyx-common</artifactId>
+    <version>${lyx-common.version}</version>
+    <packaging>jar</packaging>
+    <description>公共模块</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
