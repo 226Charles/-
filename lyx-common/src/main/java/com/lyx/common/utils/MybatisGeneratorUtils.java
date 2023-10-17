@@ -16,7 +16,7 @@ public class MybatisGeneratorUtils {
     public static void generator() throws Exception {
 
         String generatorConfig_xml = MybatisGeneratorUtils.class.getResource("/").getPath().replace("/target/classes/", "") + "/src/main/resources/mybatis_generator.xml";
-
+        System.out.println(generatorConfig_xml);
         System.out.println("========== 开始运行MybatisGenerator ==========");
         List<String> warnings = new ArrayList<>();
         File configFile = new File(generatorConfig_xml);
