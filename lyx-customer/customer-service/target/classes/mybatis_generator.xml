@@ -43,7 +43,9 @@
         <jdbcConnection driverClass="${mysql.datasource.driverclass}"
                         connectionURL="${mysql.datasource.url}"
                         userId="${mysql.datasource.username}"
-                        password="${mysql.datasource.password}" />
+                        password="${mysql.datasource.password}">
+        <property name="useInformationSchema" value="true"/>
+        </jdbcConnection>
 
         <!-- model生成 -->
         <javaModelGenerator targetPackage="com.lyx.customer.api.entity" targetProject="E:\lyx-parents\lyx-customer\customer-api\src\main\java" />

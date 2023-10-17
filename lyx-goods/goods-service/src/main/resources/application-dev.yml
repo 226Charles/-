@@ -11,3 +11,9 @@ dubbo:
     name: dubbo
     port: 20882
 
+mysql:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: root
+    driverclass: com.mysql.cj.jdbc.Driver
